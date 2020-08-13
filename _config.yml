@@ -22,7 +22,7 @@ author:
 
 # set url for the contact form
 form:
-  submit_url: https://formspree.io/xknqkpjo
+  submit_url: https://cgi.casjay.net/email.cgi
 
 # only set one of columns_ to enabled
 # set a custom theme - includes/themes
