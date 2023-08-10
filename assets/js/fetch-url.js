@@ -1,4 +1,4 @@
-fetch('https://github.com/casjaysdev-sites/static.casjay.net/raw/main/README.md')
+fetch('https://github.com/casjaysdev-sites/static.casjay.pro/raw/main/README.md')
   .then(function (response) {
     return response.text()
   }).then(function (body) {
