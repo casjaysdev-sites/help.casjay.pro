@@ -446,6 +446,67 @@ hr {
   text-wrap: balance;
 }
 
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+img,
+video {
+  height: auto;
+}
+
+p img,
+.legal img,
+.footer-custom img {
+  margin: 0.25rem;
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a,
+span,
+div {
+  overflow-wrap: break-word;
+}
+
+.long-string,
+.ip-address,
+.onion-address,
+.api-token,
+.hash,
+.uuid {
+  word-break: break-all;
+  overflow-wrap: break-word;
+  font-family: monospace;
+}
+
+a:focus-visible,
+.btn:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 0.1875rem solid #b5e853;
+  outline-offset: 0.125rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 2.75rem;
+}
+
 .btn:hover {
   background: -webkit-linear-gradient(top,
       rgba(40, 40, 40, 0.6),
